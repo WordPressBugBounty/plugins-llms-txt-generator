@@ -1,0 +1,115 @@
+.llms-txt-generator-settings .form-table th {
+    width: 200px;
+}
+
+.llms-txt-generator-settings .form-table td {
+    padding: 15px 10px;
+}
+
+.llms-txt-generator-settings .description {
+    margin-top: 5px;
+    color: #666;
+}
+
+.llms-txt-generator-settings label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.llms-txt-generator-settings textarea {
+    font-family: monospace;
+}
+
+.llms-txt-generator-settings hr {
+    margin: 30px 0;
+}
+
+.llms-txt-generator-settings .button {
+    margin: 5px 0;
+}
+
+#llms-txt-generator-clear-cache {
+    margin-top: 10px;
+}
+
+/* Dashboard Styles */
+.llms-txt-generator-dashboard .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.llms-txt-generator-dashboard .dashboard-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border-radius: 4px;
+}
+
+.llms-txt-generator-dashboard .dashboard-card h2 {
+    margin: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+.llms-txt-generator-dashboard .stat-group {
+    margin-bottom: 15px;
+}
+
+.llms-txt-generator-dashboard .stat {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.llms-txt-generator-dashboard .stat .label {
+    color: #666;
+}
+
+.llms-txt-generator-dashboard .stat .value {
+    font-weight: 500;
+}
+
+.llms-txt-generator-dashboard .action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.llms-txt-generator-dashboard .action-buttons .button {
+    flex: 1;
+    text-align: center;
+    min-width: 120px;
+}
+
+.premium-badge {
+    background: #ff6b6b;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.premium-notice {
+    color: #ff6b6b;
+    font-style: italic;
+}
+
+/* Estilo para campos desabilitados */
+input[disabled], textarea[disabled] {
+    background-color: #f8f8f8 !important;
+    cursor: not-allowed;
+}
+
+/* Estilo para o botão Clear Cache quando desabilitado */
+#llms-txt-generator-clear-cache[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+} 
